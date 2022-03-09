@@ -6,8 +6,8 @@
 }
 /*the element to apply animation to*/
 div{
-    width: 10px;
-    height:10px;
+    width: 100px;
+    height:100px;
     background-color: red;
     animation-name:block;
     animation-duration: 5s;
