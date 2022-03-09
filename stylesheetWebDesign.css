@@ -1,0 +1,15 @@
+/*animation code*/
+@keyframes blocky{
+    25% {background-color: blue;} /*{} = properties of block, % is based on the duration of the animation*/
+    50% {background-color: white;}
+    100% {background-color: black;}
+}
+/*the element to apply animation to*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:blocky;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
