@@ -1,7 +1,7 @@
 /*animation code*/
 @keyframes block{
     0%{background-color: blue;} /*{} = properties of block, % is based on the duration of the animation*/
-    50%{background-color: white;}
+    50%{background-color: green;}
     100%{background-color: black;}
 }
 /*the element to apply animation to*/
@@ -10,6 +10,6 @@ div{
     height:100px;
     background-color: red;
     animation-name:block;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
