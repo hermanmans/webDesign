@@ -1,0 +1,10 @@
+@keyframes insta{
+    100%{transform:translatex(200px);}
+}
+
+div{
+    animation-name:insta;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+}
