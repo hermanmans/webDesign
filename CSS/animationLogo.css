@@ -1,11 +1,11 @@
 @keyframes instagram{
-    70%{transform:translatey(60px);}
-    100%{transform:rotate(180deg);}  
+    0%{transform: rotatex(-360deg);}
+    15%{transform: rotatey(-360deg);}
+    
 }
 
 div{
     animation-name:instagram;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-direction:alternate ;
 }
