@@ -1,15 +1,15 @@
-/*animation code*/
-@keyframes block{
-    0%{background-color: blue;} /*{} = properties of block, % is based on the duration of the animation*/
-    50%{background-color: green;}
-    100%{background-color: black;}
+*{box-sizing: border-box;}
+
+
+.items{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
 }
-/*the element to apply animation to*/
-div{
-    width: 100px;
-    height:100px;
-    background-color: red;
-    animation-name:block;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+.Item{
+    border: 1px solid black;
+}
+.Itema{
+ grid-row: 1;
+ grid-column: 2;
+ background-color: brown;
 }
